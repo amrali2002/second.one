@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 150px;
+}
+.logo:hover{
+
+background-color: #0f172a;
+
+}
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.cta-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: 0 10px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-us {
+    background-color: red;
+    color: white;
+}
+
+.explore-now {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .desktop-menu {
+        display: none; 
+    }
+
+    .cta-button {
+        display: none; 
+    }
+
+    .hero-text h1 {
+        font-size: 2em;
+    }
+
+    .hero {
+        padding: 50px 10px;
+    }
+}
+
+.hero {
+    height: 100vh;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #0f172a; 
+    background-image: url(/home.jpeg); 
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay; 
+}
+
+
+
